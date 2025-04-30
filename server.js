@@ -15,5 +15,5 @@ app.listen(PORT, () => {
     
 })
 app.get("/", (req, res) =>{
-  return res.status(200).json({message: "welcome to SCHOOL MANAGEMENT API"})    
+  return res.status(200).json({message: "welcome to Youthrive Backend"})    
 })
